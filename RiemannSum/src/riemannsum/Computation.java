@@ -59,7 +59,7 @@ public class Computation {
 
     double perform5(double ValueA, double delta, double Fourth, double Cube, double Square, double Justa, double Constant) {
 
-        double result = (perform3(ValueA, delta, Fourth, Cube, Square, Justa, Constant)) - (perform4(ValueA, delta, Fourth, Cube, Square, Justa, Constant));
+        double result = ((perform3(ValueA, delta, Fourth, Cube, Square, Justa, Constant)) - (perform4(ValueA, delta, Fourth, Cube, Square, Justa, Constant)))/delta;
 
         return result;
     }
